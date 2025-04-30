@@ -1,0 +1,14 @@
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.deps.json
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.runtimeconfig.json
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.dll
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.pdb
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.dll
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
+/home/gaoli/Desktop/Coding/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll

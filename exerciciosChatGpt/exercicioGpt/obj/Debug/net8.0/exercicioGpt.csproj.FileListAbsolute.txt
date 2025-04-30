@@ -1,0 +1,14 @@
+/home/gaoli/Desktop/Coding/exercicioGpt/bin/Debug/net8.0/exercicioGpt
+/home/gaoli/Desktop/Coding/exercicioGpt/bin/Debug/net8.0/exercicioGpt.deps.json
+/home/gaoli/Desktop/Coding/exercicioGpt/bin/Debug/net8.0/exercicioGpt.runtimeconfig.json
+/home/gaoli/Desktop/Coding/exercicioGpt/bin/Debug/net8.0/exercicioGpt.dll
+/home/gaoli/Desktop/Coding/exercicioGpt/bin/Debug/net8.0/exercicioGpt.pdb
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.GeneratedMSBuildEditorConfig.editorconfig
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.AssemblyInfoInputs.cache
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.AssemblyInfo.cs
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.csproj.CoreCompileInputs.cache
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.dll
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/refint/exercicioGpt.dll
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.pdb
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/exercicioGpt.genruntimeconfig.cache
+/home/gaoli/Desktop/Coding/exercicioGpt/obj/Debug/net8.0/ref/exercicioGpt.dll

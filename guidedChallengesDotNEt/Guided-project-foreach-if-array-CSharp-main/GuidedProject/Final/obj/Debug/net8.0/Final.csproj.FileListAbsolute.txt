@@ -1,0 +1,14 @@
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.deps.json
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.runtimeconfig.json
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.dll
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/bin/Debug/net8.0/Final.pdb
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.AssemblyInfoInputs.cache
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.AssemblyInfo.cs
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.csproj.CoreCompileInputs.cache
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.dll
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/refint/Final.dll
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.pdb
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/Final.genruntimeconfig.cache
+/home/gaoli/Desktop/Coding/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Final/obj/Debug/net8.0/ref/Final.dll
