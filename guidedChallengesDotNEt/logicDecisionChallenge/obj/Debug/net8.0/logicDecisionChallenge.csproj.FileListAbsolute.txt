@@ -1,0 +1,15 @@
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/bin/Debug/net8.0/logicDecisionChallenge
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/bin/Debug/net8.0/logicDecisionChallenge.deps.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/bin/Debug/net8.0/logicDecisionChallenge.runtimeconfig.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/bin/Debug/net8.0/logicDecisionChallenge.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/bin/Debug/net8.0/logicDecisionChallenge.pdb
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.AssemblyInfoInputs.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.AssemblyInfo.cs
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.csproj.CoreCompileInputs.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.sourcelink.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/refint/logicDecisionChallenge.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.pdb
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/logicDecisionChallenge.genruntimeconfig.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/logicDecisionChallenge/obj/Debug/net8.0/ref/logicDecisionChallenge.dll
