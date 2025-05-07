@@ -1,0 +1,15 @@
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/bin/Debug/net8.0/Integraltypes
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/bin/Debug/net8.0/Integraltypes.deps.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/bin/Debug/net8.0/Integraltypes.runtimeconfig.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/bin/Debug/net8.0/Integraltypes.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/bin/Debug/net8.0/Integraltypes.pdb
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.GeneratedMSBuildEditorConfig.editorconfig
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.AssemblyInfoInputs.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.AssemblyInfo.cs
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.csproj.CoreCompileInputs.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.sourcelink.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/refint/Integraltypes.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.pdb
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/Integraltypes.genruntimeconfig.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/Integraltypes/obj/Debug/net8.0/ref/Integraltypes.dll

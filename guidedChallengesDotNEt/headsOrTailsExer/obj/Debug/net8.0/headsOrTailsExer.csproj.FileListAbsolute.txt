@@ -1,0 +1,15 @@
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/bin/Debug/net8.0/headsOrTailsExer
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/bin/Debug/net8.0/headsOrTailsExer.deps.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/bin/Debug/net8.0/headsOrTailsExer.runtimeconfig.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/bin/Debug/net8.0/headsOrTailsExer.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/bin/Debug/net8.0/headsOrTailsExer.pdb
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.GeneratedMSBuildEditorConfig.editorconfig
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.AssemblyInfoInputs.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.AssemblyInfo.cs
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.csproj.CoreCompileInputs.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.sourcelink.json
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/refint/headsOrTailsExer.dll
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.pdb
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/headsOrTailsExer.genruntimeconfig.cache
+/home/gaoli/Desktop/Coding/cSharpExercices/guidedChallengesDotNEt/headsOrTailsExer/obj/Debug/net8.0/ref/headsOrTailsExer.dll
