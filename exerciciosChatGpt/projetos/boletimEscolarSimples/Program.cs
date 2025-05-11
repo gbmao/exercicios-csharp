@@ -25,10 +25,15 @@ switch (escolha)
 
 
 
+
+
 string escolha = "";
-string aluno = "";
+string[] aluno = new string[] {"Pedro", "Ana Julia", "Amélia"};
+double[] media =new double[] {0, 0, 0,};
 int notaMatematica = 0, notaQuimica = 0, notaFisica = 0;
-double mediaPedro = 0, mediaAna = 0, mediaAmelia = 0;
+bool intNumber = false;
+int escolha2Integer = 0;
+//double mediaPedro = 0, mediaAna = 0, mediaAmelia = 0;
 string situacao = "";
 do 
 {
@@ -38,62 +43,65 @@ do
 switch (escolha)
 {
     case "1":
-        Console.WriteLine("Escolhao aluno:");
+        Console.WriteLine("Escolha o aluno:");
         Console.WriteLine("1.Pedro\n2.Ana Julia\n3.Amélia");
         string escolha2 = Console.ReadLine();
+        intNumber = int.TryParse(escolha2, out escolha2Integer);
+        
 
-        switch (escolha2)
+        // tentar diminuir a quantidade de linhas de codigo
+        // usar, talvez, um FOR?
+
+        // garantir que o input esteja correto!!!
+
+        switch (escolha2Integer)
         {
-            case "1":
+            case 1:
 
+                
+            
+                Console.WriteLine($"Você selecionou {aluno[escolha2Integer - 1]}");
                 Console.WriteLine("Digite a nota de Matemática:");
-                string? pedroMatematica = Console.ReadLine();
-                int.TryParse(pedroMatematica, out notaMatematica);
+                int.TryParse(Console.ReadLine(), out notaMatematica);
 
                 Console.WriteLine("Digite a nota de Química:");
-                string? pedroQuimica = Console.ReadLine();
-                int.TryParse(pedroQuimica, out notaQuimica);
+                int.TryParse(Console.ReadLine(), out notaQuimica);
 
                 Console.WriteLine("Digite a nota de Física:");
-                string? pedroFisica = Console.ReadLine();
-                int.TryParse(pedroFisica, out notaFisica);
+                int.TryParse(Console.ReadLine(), out notaFisica);
 
-                mediaPedro = ((double)notaMatematica + notaQuimica + notaFisica)/3;
+                media[escolha2Integer - 1] = ((double)notaMatematica + notaQuimica + notaFisica)/3;
 
                 break;
 
-                case "2":
+                case 2:
 
+                Console.WriteLine($"Você selecionou {aluno[escolha2Integer - 1]}");
                 Console.WriteLine("Digite a nota de Matemática:");
-                string? anaMatematica = Console.ReadLine();
-                int.TryParse(anaMatematica, out notaMatematica);
+                int.TryParse(Console.ReadLine(), out notaMatematica);
 
                 Console.WriteLine("Digite a nota de Química:");
-                string? anaQuimica = Console.ReadLine();
-                int.TryParse(anaQuimica, out notaQuimica);
+                int.TryParse(Console.ReadLine(), out notaQuimica);
 
                 Console.WriteLine("Digite a nota de Física:");
-                string? anaFisica = Console.ReadLine();
-                int.TryParse(anaFisica, out notaFisica);
+                int.TryParse(Console.ReadLine(), out notaFisica);
 
-                mediaAna = ((double)notaMatematica + notaQuimica + notaFisica)/3;
+                media[escolha2Integer - 1] = ((double)notaMatematica + notaQuimica + notaFisica)/3;
 
                 break;
 
-                case "3":
+                case 3:
+                Console.WriteLine($"Você selecionou {aluno[escolha2Integer - 1]}");
                 Console.WriteLine("Digite a nota de Matemática:");
-                string? ameliaMatematica = Console.ReadLine();
-                int.TryParse(ameliaMatematica, out notaMatematica);
+                int.TryParse(Console.ReadLine(), out notaMatematica);
 
                 Console.WriteLine("Digite a nota de Química:");
-                string? ameliaQuimica = Console.ReadLine();
-                int.TryParse(ameliaQuimica, out notaQuimica);
+                int.TryParse(Console.ReadLine(), out notaQuimica);
 
                 Console.WriteLine("Digite a nota de Física:");
-                string? ameliaFisica = Console.ReadLine();
-                int.TryParse(ameliaFisica, out notaFisica);
+                int.TryParse(Console.ReadLine(), out notaFisica);
 
-                mediaAmelia = ((double)notaMatematica + notaQuimica + notaFisica)/3;
+                media[escolha2Integer - 1] = ((double)notaMatematica + notaQuimica + notaFisica)/3;
 
                 break;
         }
@@ -101,14 +109,17 @@ switch (escolha)
 
     case "2":
 
-        if (mediaPedro >= 7) situacao = "Aprovado";
-        else if (mediaPedro >= 5 && mediaPedro <= 7) situacao = "Recuperação";
+        for (int i = 0; i < aluno.Length; i++)
+        {
+
+        if (media[i] >= 7) situacao = "Aprovado";
+        else if (media[i] >= 5 && media[i] <= 7) situacao = "Recuperação";
         else situacao = "Reprovado";
 
 
-        Console.WriteLine($"\nAluno: Pedro - Média: {mediaPedro} - Situação: {situacao}");
-
-        if (mediaAna >= 7) situacao = "Aprovado";
+        Console.WriteLine($"\nAluno: {aluno[i]} - Média: {media[i]:F2} - Situação: {situacao}");
+        }
+        /*if (mediaAna >= 7) situacao = "Aprovado";
         else if (mediaAna >= 5 && mediaAna <= 7) situacao = "Recuperação";
         else situacao = "Reprovado";
 
@@ -118,7 +129,7 @@ switch (escolha)
         else if (mediaAmelia >= 5 && mediaAmelia <= 7) situacao = "Recuperação";
         else situacao = "Reprovado";
 
-        Console.WriteLine($"\nAluno: Amélia - Média: {mediaAmelia} - Situação: {situacao}");
+        Console.WriteLine($"\nAluno: Amélia - Média: {mediaAmelia} - Situação: {situacao}"); */
 
 
         break;    
