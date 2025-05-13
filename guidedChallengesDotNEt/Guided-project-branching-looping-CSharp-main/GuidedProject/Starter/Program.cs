@@ -236,7 +236,7 @@ do
                         }
 
                     } while (animalNickname == "");
-                    
+
                     // store the pet information in the ourAnimals array (zero based)
                     ourAnimals[petCount, 0] = "ID #: " + animalID;
                     ourAnimals[petCount, 1] = "Species: " + animalSpecies;
@@ -277,8 +277,62 @@ do
             }
             break;
         case "3":
+            // counting max pet
+            petCount = 0;
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    petCount += 1;
+                }
+            }
             //Ensure animal ages and physical descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < petCount; i++)
+            {
+                validEntry = false;
+                int petAge;
+
+                do
+                {
+                    Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null)
+                    {
+
+                        validEntry = int.TryParse(readResult, out petAge);
+                        ourAnimals[i, 2] = "Age: " + petAge;
+
+                    }
+                    if (validEntry == false)
+                    {
+                        Console.WriteLine("\nInvalid input!");
+                    }
+
+
+                } while (validEntry == false);
+
+                do
+                {
+                    validEntry = false;
+                    // input of physical description
+                    Console.WriteLine($"Please, enter a physical description for {ourAnimals[i, 0]}");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null)
+                    {
+                        validEntry = true;
+                        ourAnimals[i, 4] = "Physical description: " + readResult;
+
+                    }
+
+
+
+                } while (validEntry == false || readResult == "");
+
+
+            }
+            Console.WriteLine("Age and physical description fields are complete for all of our friends. ");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
