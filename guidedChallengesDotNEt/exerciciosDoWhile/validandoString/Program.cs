@@ -5,6 +5,7 @@
 
 Console.WriteLine("Please insert your role (Administrator, Manager or User)");
 string role = "";
+bool azul = true;
 do
 {
     role = Console.ReadLine().Trim().ToLower();
@@ -14,6 +15,6 @@ do
     if (role == "user") break;
     Console.WriteLine($"The role name that you entered  \"{role}\"  is not valid. Enter your role name (Administrator, Manager or User)");
 
-} while ((role != "administrator")||(role != "manager") || (role != "user"));
+} while (azul);
 
 Console.WriteLine($"Your input value ({role}) has been accepted");

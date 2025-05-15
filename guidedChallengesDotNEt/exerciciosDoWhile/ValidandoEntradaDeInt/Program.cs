@@ -39,4 +39,4 @@ do
 
 } while ((number < 5)||(number > 10));
 
-Console.WriteLine($"Your input value ({number}) has been acepted.");
+Console.WriteLine($"Your input value ({number}) has been accepted.");

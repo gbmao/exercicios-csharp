@@ -348,9 +348,9 @@ do
                 }
             }
             //Ensure animal nicknames and personality descriptions are complete
-            
-            do
-            {
+
+            //do
+            //{
                 for (int i = 0; i < petCount; i++)
                 {
                     Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
@@ -373,7 +373,7 @@ do
                         } while (readResult == "" );
                     }
                 }
-            } while (readResult == "");
+            //} while (readResult == "");
 
             Console.WriteLine("Nickname and personality description fields are complete for all of our friends. ");
             Console.WriteLine("Press the Enter key to continue.");
