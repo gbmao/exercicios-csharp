@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modificando-conteudo-embutidos", "modificando-conteudo-embutidos.csproj", "{36DD956E-39D0-DCF8-6A8A-5B97486A2B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36DD956E-39D0-DCF8-6A8A-5B97486A2B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DD956E-39D0-DCF8-6A8A-5B97486A2B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DD956E-39D0-DCF8-6A8A-5B97486A2B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DD956E-39D0-DCF8-6A8A-5B97486A2B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D71BAC9-748E-4F75-9894-381E7A0BC20F}
+	EndGlobalSection
+EndGlobal
