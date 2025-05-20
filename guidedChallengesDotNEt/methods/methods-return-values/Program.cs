@@ -91,6 +91,7 @@ Console.Write(revertaFrase("there are snakes at the zoo"));
 Console.WriteLine();
 */
 
+/*
 string[] words = {"racecar" ,"talented", "deified", "tent", "tenet"};
 
 Console.WriteLine("Is it a palindrome?");
@@ -119,4 +120,55 @@ bool IsPalindrome(string word)
     }
 
     return result;
+}
+
+
+// o GABARITO
+
+bool IsPalindrome(string word) 
+{
+    int start = 0;
+    int end = word.Length - 1;
+
+    while (start < end) 
+    {
+        if (word[start] != word[end]) 
+        {
+            return false;
+        }
+        start++;
+        end--;
+    }
+
+    return true;
+}
+*/
+
+int target = 60;
+int[] coins = new int[] { 5, 5, 50, 25, 25, 10, 5 };
+int[] result = TwoCoins(coins, target);
+
+if (result.Length == 0) 
+{
+    Console.WriteLine("No two coins make change");
+} 
+else 
+{
+    Console.WriteLine($"Change found at positions {result[0]} and {result[1]}");
+}
+
+int[] TwoCoins(int[] coins, int target)
+{
+    for (int curr = 0; curr < coins.Length; curr++)
+    {
+        for (int next = curr + 1; next < coins.Length; next++)
+        {
+            if (coins[curr] + coins[next] == target)
+            {
+                return new int[] { curr, next };
+            }
+
+        }
+    }
+    return new int[0];
 }
