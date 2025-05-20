@@ -61,6 +61,7 @@ double VndToUsd(int vnd)
 
 //Console.WriteLine(revertaIsso[6]);
 
+/*
 string revertaFrase(string revertaFrase)
 {
     string result = "";
@@ -88,3 +89,34 @@ string palavraRevertida(string revertaIsso)
 
 Console.Write(revertaFrase("there are snakes at the zoo"));
 Console.WriteLine();
+*/
+
+string[] words = {"racecar" ,"talented", "deified", "tent", "tenet"};
+
+Console.WriteLine("Is it a palindrome?");
+foreach (string word in words)
+{
+    Console.WriteLine($"{word}: {IsPalindrome(word)}");
+}
+
+bool IsPalindrome(string word)
+{
+    string revertedWord = "";
+
+    for (int i = word.Length - 1; i >= 0; i--)
+    {
+        revertedWord += word[i];
+    }
+
+    bool result;
+    if (revertedWord == word)
+    {
+        result = true;
+    }
+    else
+    {
+        result = false;
+    }
+
+    return result;
+}
