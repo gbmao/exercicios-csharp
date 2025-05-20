@@ -37,6 +37,7 @@ string FormatDecimal(double input)
 }
 */
 
+/*
 double usd = 23.73;
 int vnd = UsdToVnd(usd);
 
@@ -54,3 +55,36 @@ double VndToUsd(int vnd)
     double rate = 23500;
     return vnd / rate;
 }
+*/
+
+//string revertaIsso = "Reverta";
+
+//Console.WriteLine(revertaIsso[6]);
+
+string revertaFrase(string revertaFrase)
+{
+    string result = "";
+    string[] frase = revertaFrase.Split(" ");
+
+    foreach (string palavra in frase)
+    {
+        result += palavraRevertida(palavra) + " ";
+    }
+
+    return result;
+}
+
+
+
+string palavraRevertida(string revertaIsso)
+{
+    string resultado = "";
+    for (int i = revertaIsso.Length - 1; i >= 0; i--)
+    {
+        resultado += revertaIsso[i];
+    }
+    return resultado;
+}
+
+Console.Write(revertaFrase("there are snakes at the zoo"));
+Console.WriteLine();
