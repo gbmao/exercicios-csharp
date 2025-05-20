@@ -1,4 +1,5 @@
-﻿double total = 0;
+﻿/*
+double total = 0;
 double minimumSpend = 30.00;
 
 double[] items = { 15.97, 3.50, 12.25, 22.99, 10.98 };
@@ -33,4 +34,23 @@ string FormatDecimal(double input)
 {
     // Format the double so only 2 decimal places are displayed
     return input.ToString().Substring(0, 5);
+}
+*/
+
+double usd = 23.73;
+int vnd = UsdToVnd(usd);
+
+Console.WriteLine($"${usd} USD = ${vnd} VND");
+Console.WriteLine($"${vnd} VND = ${VndToUsd(vnd)} USD");
+
+int UsdToVnd(double usd)
+{
+    int rate = 23500;
+    return (int)(rate * usd);
+}
+
+double VndToUsd(int vnd)
+{
+    double rate = 23500;
+    return vnd / rate;
 }
