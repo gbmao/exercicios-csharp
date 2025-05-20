@@ -144,6 +144,8 @@ bool IsPalindrome(string word)
 }
 */
 
+
+/*
 int target = 30;
 int[] coins = new int[] { 5, 5, 50, 25, 25, 10, 5 };
 int[,] result = TwoCoins(coins, target);
@@ -192,4 +194,124 @@ int[,] TwoCoins(int[] coins, int target)
         return new int[0, 0];
     }
     return result;
+}
+*/
+
+// jogo de dados
+
+
+
+
+Random random = new Random();
+
+Console.WriteLine("Would you like to play? (Y/N)");
+if (ShouldPlay()) 
+{
+    PlayGame();
+}
+
+void PlayGame()
+{
+    var play = true;
+
+    while (play)
+    {
+        var target = Target();
+        var roll = Roll();
+
+        Console.WriteLine($"Roll a number greater than {target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose(roll, target));
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+    }
+}
+int Target()
+{
+    return random.Next(1, 6);
+}
+int Roll()
+{
+    return random.Next(1, 7);
+}
+
+bool ShouldPlay()
+{
+    string input = Console.ReadLine().ToLower().Trim();
+
+    if (input == "y")
+    {
+        return true;
+    }
+    else return false;
+
+}
+
+string WinOrLose( int roll , int target)
+{
+    string result = "";
+    if (roll > target)
+    {
+        result = "You win!";
+    }
+    else
+    {
+        result = "You lose!";
+    }
+    return result;
+}
+
+
+//GABARITO
+
+
+Random random = new Random();
+
+Console.WriteLine("Would you like to play? (Y/N)");
+if (ShouldPlay()) 
+{
+    PlayGame();
+}
+
+bool ShouldPlay() 
+{
+    string response = Console.ReadLine();
+    return response.ToLower().Equals("y");
+}
+
+void PlayGame() 
+{
+    var play = true;
+
+    while (play) {
+        var target = GetTarget();
+        var roll = RollDice();
+
+        Console.WriteLine($"Roll a number greater than {target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose(roll, target));
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+    }
+}
+
+int GetTarget() 
+{
+    return random.Next(1, 6);
+}
+
+int RollDice() 
+{
+    return random.Next(1, 7);
+}
+
+string WinOrLose(int roll, int target) 
+{
+    if (roll > target) 
+    {
+        return "You win!";
+    }
+    return "You lose!";
 }
