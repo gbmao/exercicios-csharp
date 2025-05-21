@@ -36,9 +36,22 @@ while (!shouldExit)
         Console.WriteLine("Console was resized. Program exiting.");
         Console.WriteLine();
     }
+    // stun se for X_X
+    Stun();
     Move();
-} Console.Clear();
+    PlayerAteFood();
+}
+Console.Clear();
 
+// stun the player
+void Stun()
+{
+    if (PlayerIsX_X())
+    {
+        FreezePlayer();
+        player = states[0];
+    }
+}
 // Returns true if the Terminal was resized 
 bool TerminalResized()
 {
@@ -62,7 +75,7 @@ void ShowFood()
 
 // Changes the player to match the food consumed
 void ChangePlayer()
-{
+{   
     player = states[food];
     Console.SetCursorPosition(playerX, playerY);
     Console.Write(player);
@@ -90,13 +103,33 @@ void Move()
             playerY++;
             break;
         case ConsoleKey.LeftArrow:
-            playerX--;
+            if (PlayerIsHappy())
+            {
+                playerX--;
+                playerX--;
+                playerX--;
+            }
+            else
+            {
+                playerX--;
+            }
+
             break;
         case ConsoleKey.RightArrow:
-            playerX++;
+            if (PlayerIsHappy())
+            {
+                playerX++;
+                playerX++;
+                playerX++;
+            }
+            else
+            {
+                playerX++;
+            }
+
             break;
-        case ConsoleKey.Escape:
-            shouldExit = true;
+        case ConsoleKey.S:
+            player = states[0];
             break;
         // Se uma entrada não direcional for detectada, faça com que o jogo seja encerrado
         default:
@@ -127,4 +160,33 @@ void InitializeGame()
     ShowFood();
     Console.SetCursorPosition(0, 0);
     Console.Write(player);
+}
+
+//Criar um método que usa as variáveis existentes de posicionamento do player e do alimento
+//O método deve retornar um valor
+//Depois que o usuário mover o personagem, chame seu método para determinar o seguinte:
+//Se deve ou não usar o método existente que altera a aparência do jogador
+//Se deve ou não usar o método existente para mostrar novamente o alimento
+
+void PlayerAteFood()
+{
+
+    //int[,] playerPosition = { { playerX, playerY } , { playerX +1, playerY +1 } };
+    if (playerX == foodX && playerY == foodY)
+    {
+        ChangePlayer();
+
+        ShowFood();
+    }
+    // player = states[0];
+}
+// method para retornar se a aparencia é x_x
+bool PlayerIsX_X()
+{
+    return player == states[2];
+}
+
+bool PlayerIsHappy()
+{
+    return player == states[1];
 }
